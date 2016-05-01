@@ -121,4 +121,4 @@ tidySet <- CombinedSubset %>%
         summarize_each(funs(mean))
 
 # Write out the tidy data set into a flat file
-write.table(tidySet, file = "UCI-HAR-Tidyset-venkyram-proj-output.csv", row.names = FALSE)
+write.table(tidySet, file = "UCI-HAR-Tidyset-venkyram-proj-output.txt", row.names = FALSE)
